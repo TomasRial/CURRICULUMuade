@@ -1,22 +1,39 @@
 
+html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
 
-.botonera{
-    position: absolute;
-    width: 100%;
-    height: 70px;
-    left: 0px;
-    top: 140px;
-    
-    background: #6FC6B1;
+.button{
+    background-color: rgb(255, 255, 255);
+    width: 8rem;
+    height: 2,5rem;
+
+    display: flex;
+    flex-direction: row;
 }
 
 
 
+.textoboton{
+    position: absolute;  
+    font-family: 'Crimson Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
 
 footer{
     position: absolute;
-    width: 100%;
-    height: 206px;
+    width: 100vw;
+    height: 10vh;
     left: 0px;
     top: 874px;
     
@@ -25,11 +42,10 @@ footer{
 
 
 
-
 header{
     position: absolute;
-    width: 100%     ;
-    height: 140px;
+    width: 100vw     ;
+    height: 200px;
     left: 0px;
     top: 0px;
     
@@ -51,10 +67,28 @@ font-style: normal;
 font-weight: 400;
 font-size: 6rem;
 line-height: 125px;
-
 color: #000000;
 
     
+}
+
+
+
+.button{
+    position: absolute;
+    width: 157px;
+    height: 36px;
+    left: 824px;
+    top: 157px;
+    background: #FBFBFB;
+    flex-direction: row-reverse;
+}
+
+nav{
+    background-color:  #81E9D0;
+    height: 3rem;
+    margin-top: 0;
+    margin: 0;
 }
 
 
@@ -80,21 +114,13 @@ color: #000000;
     height: 36px;
     left: 824px;
     top: 157px;
-    
+   
     background: #FBFBFB;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 
 }
 
 .btext1{
-
-    position: absolute;
-    width: 157px;
-    height: 36px;
-    left: 824px;
-    top: 157px;
-    
-
     font-family: 'Crimson Pro';
     font-style: normal;
     font-weight: 400;
@@ -124,14 +150,7 @@ color: #000000;
 }
 
 .btext2{
-    position: absolute;
-    width: 157px;
-    height: 36px;
-    left: 1032px;
-    top: 157px;
-    
-
-    font-family: 'Crimson Pro';
+font-family: 'Crimson Pro';
 font-style: normal;
 font-weight: 400;
 font-size: 1.5rem;
@@ -155,12 +174,6 @@ text-align: center;
 }
 
 .btext3{
-    position: absolute;
-width: 157px;
-height: 36px;
-left: 1242px;
-top: 157px;
-
 
 font-family: 'Crimson Pro';
 font-style: normal;
@@ -186,15 +199,7 @@ color: #000000;
 }
 
 
-.btext4{
-    position: absolute;
-    width: 157px;
-    height: 36px;
-    left: 1447px;
-    top: 157px;
-    
-
-    
+.btext4{   
 font-family: 'Crimson Pro';
 font-style: normal;
 font-weight: 400;
@@ -403,8 +408,20 @@ color: #000000;
 
 }
 
+.botones{
+    display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+font-size: 30px;
+font-family: 'Instrument Serif', serif;
+font-weight: 100%;
+}
+
+@media (max-width: 600px) {
 
 
+
+}
 
 
 
